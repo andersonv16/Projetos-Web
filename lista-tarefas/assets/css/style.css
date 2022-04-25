@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  background: linear-gradient(to right, #485563, #29323c);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+.cabecalho{
+text-align: center;
+margin-top: 10%;
+text-decoration: underline lightgreen ;
+text-underline-offset: 10px;
+color: rgb(255, 255, 255);
+}
+.container-tarefa{
+  text-align: center;
+}
+.input-tarefa{
+  width: 50%;
+  margin-top: 20px;
+  height: 50px;
+  border: none;
+  padding-left: 30px;
+  font-size: 1em;
+  border-radius: 20px;
+}
+.btn-tarefa{
+  margin-top: 10px;
+  width: 50%;
+  background-color: rgb(61, 168, 61) ;
+  font-size: 1em;
+  color: white;
+  font-weight: bolder;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+}
+.tarefas{
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 21%;
+}
+.tarefas > li{
+list-style: none;
+ color: white;
+ height: 50px;
+ font-size: 1em;
+ width: 66%;
+}
+.excluir{
+  float: right;
+  background-color: transparent;
+  color: rgb(165, 3, 3);
+  font-size: 1em;
+}
